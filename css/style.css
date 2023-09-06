@@ -1,105 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-html {
+html { /* 1 */
     scroll-behavior: smooth;    
 }
 
-.wrapper {
+.wrapper { /* 10 */
     width: 80%;
     margin: 0 auto;
     position: absolute;
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
-.nav,
-.main__button,
-.main__input input,
-.main__input textarea {
+
+.nav, /* 10 */
+.main__button, /* 10 */
+.main__input input, /* 11 */
+.main__input textarea { /* 11 */
     width: 100%;
 }
 
-.nav {
+.nav { /* 10 */
     font-size: 0;
     position: fixed;
     z-index: 999;
 }
 
-.nav,
-.nav a,
-.nav a:hover,
-.main__button {
+.nav, /* 10 */
+.nav a, /* 11 */
+.nav a:hover, /* 21 */
+.main__button { /* 10 */
     background-color: #6a83D2;
 }
 
-.nav .nav {
+.nav .nav { /* 20 */
     cursor: pointer;
     display: flex;
     justify-content: center;
 }
 
-.nav__item {
+.nav__item { /* 10 */
     display: inline-block;
     font-size: 1rem;
     position: relative;
 }
 
-.nav a,
-.nav__link {
+.nav a, /* 11 */
+.nav__link { /* 10 */
     padding: 15px 30px;
 }
 
-.nav a,
-.main__button,
-.footer__name,
-.footer__item a,
-.footer__item table {
+.nav a, /* 11 */
+.main__button, /* 10 */
+.footer__name, /* 10 */
+.footer__item a, /* 11 */
+.footer__item table { /* 11 */
     color: white;
 }
 
-.nav a,
-.footer__item a  {
+.nav a, /* 11 */
+.footer__item a  { /* 11 */
     display: block;
     text-decoration: none;
     white-space: nowrap;
     transition: all 0.3s;
 }
 
-.nav a:hover {
+.nav a:hover { /* 21 */
     text-decoration: none;
     background-color: #8999d1;
     transition: all 0.3s;
 }
 
-.subnav {
+.subnav { /* 10 */
     display: none;
     position: absolute;
 }
 
-.nav__item:hover .subnav {
+.nav__item:hover .subnav { /* 30 */
     display: block;
 }
 
-.header .container,
-.header__image,
-.subnav__item {
+.header .container, /* 20 */
+.header__image, /* 10 */
+.subnav__item { /* 10 */
     position: relative;
 }
 
-.header .container {
+.header .container { /* 20 */
     left: 10%;
     top: -70px;
 }
 
-.header__image--spec {
+.header__image--spec, /* 10 */
+.footer { /* 10 */
     width: 125%;
 }
 
-.container {
+.container { /* 10 */
     display: flex;
     justify-content: center;
 }  
 
-.container p {
+.container p { /* 11 */
     display: block;
     text-align: center;
     background-color: #6a83D2;
@@ -109,25 +111,25 @@ html {
     font-size: 25px;
 }
 
-.uppercase {
+.uppercase { /* 10 */
     text-transform: uppercase;
 }
 
-.main__button,
-.main__input input,
-.main__input textarea,
-.main__items form,
-.container p {
+.main__button, /* 10 */
+.main__input input, /* 11 */
+.main__input textarea, /* 11 */
+.main__items form, /* 11 */
+.container p { /* 11 */
     border-radius: 15px;
 }
 
-.container p,
-.main__items form,
-.main__button {
+.container p, /* 11 */
+.main__items form, /* 11 */
+.main__button { /* 10 */
     padding: 5%;
 }
 
-.main__items {
+.main__items { /* 10 */
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -135,73 +137,72 @@ html {
     margin-bottom: 20px;
 }
 
-.main__items form {
+.main__items form { /* 11 */
     border: 2px double #6a83D2;
 }
 
-.main__items img {
+.main__items img { /* 11 */
     width: 50%;
 }
 
-.main__input,
-.footer__item {
+.main__input, /* 10 */
+.footer__item { /* 10 */
     margin: 5% 0;
 }
 
-.main__input input,
-.main__input textarea {
+.main__input input, /* 11 */
+.main__input textarea { /* 11 */
     border: 1px solid #6a83D2;
 }
 
-.main__input input {
+.main__input input { /* 11 */
     height: 40px;
 }
 
-.main__logo {
+.main__logo { /* 10 */
     width: 50%;
 }
 
-.main__items,
-.main__text {
+.main__items, /* 10 */
+.main__text { /* 10 */
     display: flex;
     text-indent: 1.5rem;
     margin: 1% 0;
 }
 
-.main__name {
+.main__name { /* 10 */
     position: relative;
     left: 10%;
     text-align: center;
     font-size: 32px;
 }
 
-.footer {
-    width: 125%;
+.footer { /* 10 */
     position: relative;
     left: 0;
     background-color: #1C2949;
 }
 
-.footer__content {
+.footer__content { /* 10 */
     display: flex;
     justify-content: space-around;    
 }
 
-.footer__name {
+.footer__name { /* 10 */
     font-weight: 400;
     font-size: 35px;
     margin-bottom: 5%;
 }
 
-.footer__nav--mod{
+.footer__nav--mod { /* 10 */
     margin: 10% 0;
 }
 
-.footer__item table {
+.footer__item table { /* 11 */
     border-spacing: 20px 15px;
 	border-collapse: separate;
 }
 
-.italic {
+.italic { /* 10 */
     font-style: italic;
 }
