@@ -163,7 +163,7 @@ html { /* 1 */
     width: 50%;
 }
 
-.main__items, /* 10 */
+.main__items--spec, /* 10 */
 .main__text { /* 10 */
     display: flex;
     text-indent: 1.5rem;
