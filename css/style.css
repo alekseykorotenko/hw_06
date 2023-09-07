@@ -51,8 +51,7 @@ html { /* 1 */
 .nav a, /* 11 */
 .main__button, /* 10 */
 .footer__name, /* 10 */
-.footer__item a, /* 11 */
-.footer__item table { /* 11 */
+.footer__item a { /* 11 */
     color: white;
 }
 
@@ -200,11 +199,24 @@ html { /* 1 */
     margin: 10% 0;
 }
 
-.footer__item table { /* 11 */
-    border-spacing: 20px 15px;
-	border-collapse: separate;
-}
-
 .italic { /* 10 */
     font-style: italic;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__items {
+    padding: 4%;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.contacts__items a {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+
 }
