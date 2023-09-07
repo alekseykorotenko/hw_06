@@ -216,7 +216,7 @@ html { /* 1 */
 
 .contacts__items a {
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; /* Don't work with Internet Explorer*/
     color: transparent;
 
 }
